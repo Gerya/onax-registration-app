@@ -6,9 +6,9 @@ Config.xml file:
 
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.onax.registrationapp" version="1.0.0" android-versionCode="1" ios-CFBundleVersion="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>BT Logistik App</name>
+    <name>QR Code scanner</name>
     <description>
-        Ordering and Returning Products App for Siemens.
+       Simple QR Code scanner
     </description>
     <author email="support@onax.ch" href="https://onax.ch">
         ONAX AG - it solutions

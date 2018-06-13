@@ -9,9 +9,9 @@
     <feature name="BarcodeScanner">
         <param name="browser-package" value="BarcodeScanner" />
     </feature>
-    <name>BT Logistik App</name>
+    <name>QR Code scanner</name>
     <description>
-        Ordering and Returning Products App for Siemens.
+        Simple QR Code scanner
     </description>
     <author email="support@onax.ch" href="https://onax.ch">
         ONAX AG - it solutions
