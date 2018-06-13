@@ -1,0 +1,91 @@
+<div class="user-details" [class.not-visible-block]="!isErrorNotVisible">
+    <div class="row">
+        <div class="col-xs-2">
+            <label>Ordered by:</label>
+        </div>
+        <div class="col-xs-4">
+            {{user.ordered_by}}
+        </div>
+        <div class="col-xs-2">
+            <label>Bookingnumber:</label>
+        </div>
+        <div class="col-xs-4">
+            {{user.bookingnumber}}
+        </div>
+    </div>
+    <div class="row">
+            <div class="col-xs-2">
+                <label>Address:</label>
+            </div>
+            <div class="col-xs-4">
+                {{user.addres}}
+            </div>
+            <div class="col-xs-2">
+                <label>Status:</label>
+            </div>
+            <div class="col-xs-4">
+                {{user.status}}
+            </div>
+    </div>
+    <div class="row">
+            <div class="col-xs-2">
+                <label>Telephone:</label>
+            </div>
+            <div class="col-xs-4">
+                {{user.phone}}
+            </div>
+            <div class="col-xs-2">
+                <label>Booking date:</label>
+            </div>
+            <div class="col-xs-4">
+                {{user.booking_date}}
+            </div>
+    </div>
+    <div class="row">
+            <div class="col-xs-2">
+                <label>Fax:</label>
+            </div>
+            <div class="col-xs-4">
+                {{user.fax}}
+            </div>
+            <div class="col-xs-2">
+                <label>Arrival:</label>
+            </div>
+            <div class="col-xs-4">
+                {{user.arrival}}
+            </div>
+    </div>
+    <div class="row">
+            <div class="col-xs-2">
+                <label>E-mai:</label>
+            </div>
+            <div class="col-xs-4">
+                {{user.email}}
+            </div>
+            <div class="col-xs-2">
+                <label>Departure:</label>
+            </div>
+            <div class="col-xs-4">
+                {{user.departure}}
+            </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" [class.not-visible-block]="isErrorNotVisible">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 clearfix">&nbsp;</div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 alert alert-danger">
+            {{errorMessage}}
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-xs-2">
+            <a class="btn btn-default" routerLink="/">Back</a>
+    </div>
+    <div class="col-xs-2">
+        <a class="btn btn-default" routerLink="/scan">
+         <img alt="Scan" src="assets/img/scanner.png" style="max-width: 20px;">
+        </a>
+    </div>
+
+</div>

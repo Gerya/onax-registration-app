@@ -1,0 +1,19 @@
+/* You can add global styles to this file, and also import other style files */
+.not-visible-block {
+    display: none;   
+}
+.btn-scan{
+    width: 100%;
+    img{
+        width: 100%;
+    }
+}
+.user-details{
+    border: 1px solid black;
+    padding: 5px;
+    margin: 30px 0 30px;
+    font-size: 12px;
+    label{
+        font-size: bold;
+    }
+}
