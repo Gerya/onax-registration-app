@@ -6,9 +6,6 @@
 /dist
 /tmp
 /out-tsc
-/phonegap/www
-/phonegap/platforms
-/phonegap/plugins
 
 # dependencies
 /node_modules
@@ -30,6 +27,7 @@
 !.vscode/extensions.json
 
 # misc
+/e2e
 /.sass-cache
 /connect.lock
 /coverage
@@ -37,11 +35,19 @@
 npm-debug.log
 testem.log
 /typings
-
-# e2e
-/e2e/*.js
-/e2e/*.map
+/res
+/src
 
 # System Files
 .DS_Store
 Thumbs.db
+
+/package-lock.json
+/protractor.conf.js
+/README.md
+/tsconfig.json
+/tslint.json
+/.editorconfig
+/angular.json
+/karma.conf.js
+/package.json
